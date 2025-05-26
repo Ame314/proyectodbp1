@@ -1,0 +1,47 @@
+#tiempo_widget {
+    width: 300px;
+    padding: 20px;
+    margin: 40px auto;
+    background: linear-gradient(135deg, #e0f7fa, #fff);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+#tiempo_widget input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#tiempo_widget input[type="button"] {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+#tiempo_widget input[type="button"]:hover {
+    background-color: #0097a7;
+}
+
+#tiempo_widget img#icono {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+}
+
+#tiempo_widget #descripcion {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
